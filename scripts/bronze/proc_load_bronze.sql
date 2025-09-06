@@ -140,7 +140,7 @@ begin
 		PRINT '-------------------';
 
 		PRINT '===============================================';
-		PRINT 'Loading Bronze Layer';
+		PRINT 'Loaded Bronze Layer';
 		PRINT '-----------------------------------------------';
 		PRINT '>> Total Load Duration: ' + CAST(DATEDIFF(second, @total_start_time, @end_time) as varchar) + 's';
 		PRINT '===============================================';
